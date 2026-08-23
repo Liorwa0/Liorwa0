@@ -1,9 +1,14 @@
 <div align="center">
-  <h2> Hi there! I'm Arwa 👋</h2>
-  <h4>Full Stack Developer | IT Specialist[cite: 1]</h4>
+  <h1>Hi there! I'm Arwa Alhomrani 👋</h1>
+  <h3>Full-Stack Developer | Software Engineer Enthusiast</h3>
+
   <p>
-    <a href="https://github.com/Liorwa0"><img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-    <a href="mailto:lla644183@gmail.com"><img src="https://img.shields.io/badge/EMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+    <a href="https://www.linkedin.com/in/arwa-alhomrani-29578a35a" target="_blank">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="mailto:arwaalhomrani92@gmail.com">
+      <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
   </p>
 </div>
 
@@ -11,57 +16,48 @@
 
 ### 👩‍💻 About Me
 
-🎓 Education & Professional Training
-* Princess Nourah bint Abdulrahman University | Diploma in Computer Science (Programming)
-* SDAIA | AI Certifications: Fundamentals of AI & Advanced Applications
-
-* 💼 Experience: Full-Stack Developer at Saudi Chemical Company (1 Year Experience).
-* ⚙️ Focus: Bridging the gap between complex backend logic and intuitive user interfaces using the MERN stack and ASP.NET Core.
-* 💡 Interests: Automating workflows and integrating AI models into practical applications.
-
----
-
-### 🚀 My Tech Journey & Bootcamps
-
-* ⛺ Holberton School (Foundation Track): Accepted and starting an intensive program focusing on fundamental software engineering concepts and full-stack development.
-* 💻 Satr Platform: Successfully completed a comprehensive Python programming series (Levels 101, 102, 103).
-* 📈 Trading & Business: Actively learning technical analysis and trading psychology strategies.
+* 🎓 **Education:** Princess Nourah University | Computer Science and Programming
+* 🚀 **Software Engineering Foundations:** Tuwaiq Academy × Holberton School
+* 💼 **Experience:** Former Full-Stack Web Developer Trainee at **Saudi Chemical Company Holding**
+* 💡 **Focus:** Building scalable full-stack applications with the **MERN Stack** and low-level system design using **C**
+* 🌐 **Freelance:** Licensed Web & Software Developer
 
 ---
 
 ### 🛠️ Tech Stack & Tools
 
-Programming Languages:
-!C#
-!JavaScript
-!Python
-!SQL
+**Programming Languages:**  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-Frameworks & Libraries:
-!ASP.NET Core
-!Node.js
-!React
-!Socket.io
+**Frameworks & Libraries:**  
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 
-Databases & Tools:
-!MongoDB
-!SQL Server
-!Git
+**Databases & Tools:**  
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ---
 
 ### 💻 Highlighted Projects
 
-* 🎓 Academic Advising Platform: Built the core architecture of a "Digital Mentor" platform supporting over 60 interactive pages and 100+ concurrent users. Implemented Socket.io for real-time communication and a robust Role-Based Access Control (RBAC) system for secure permission management.
-* 🚚 Fleet.AI: Developed an intelligent dashboard to track shipments[cite: 1]. Integrated a Python-based AI module to analyze GPS data.
-* 🏢 NEXUS HR: Architected an integrated cloud-based HR platform using ASP.NET Core and C#. Designed an intelligent dashboard with "God Mode" simulation capabilities.
+* 🎓 **Academic Advising Platform:** Built a comprehensive academic management web application using **Java** & **MongoDB**, featuring structured user roles, role-based workflows, and automated advising logic.
+* 💬 **Real-Time Collaboration Engine:** Engineered a responsive web system utilizing the **MERN stack** integrated with **Socket.io** for real-time bi-directional messaging and live notifications.
+* 🛍️ **E-Commerce & Digital Solutions:** Architected independent web storefronts with full domain configuration, payment gateways, and automated operational workflows.
 
 ---
 
-### 📊 My GitHub Insights
+### 📊 GitHub Insights
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Liorwa0&show_icons=true&theme=dracula" alt="Arwa's GitHub Stats" />
-  <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Liorwa0&layout=compact&theme=dracula" alt="Top Languages" />
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Liorwa0&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Liorwa0&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
