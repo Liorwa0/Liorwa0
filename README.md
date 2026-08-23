@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FFB6C1&height=180&section=header&text=Hi%20there!%20I'm%20Arwa%20Alhomrani%20🌸&fontSize=35&fontColor=ffffff&fontAlign=80" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FFB6C1&height=200&section=header&text=Hi%20there!%20I'm%20Arwa%20Alhomrani%20🌸&fontSize=30&fontColor=ffffff&fontAlign=50&fontAlignY=38" width="100%" alt="Header" />
   
   <h3>Full-Stack Developer | Software Engineer Enthusiast | Accredited Saudi Developer</h3>
 
@@ -65,29 +65,29 @@
 <details>
 <summary>📂 <b>Academic Advising Platform</b> (Java/MongoDB)</summary>
 
-*   Built a comprehensive academic management web application.
-*   Features structured user roles, role-based workflows, and automated advising logic.
+* Built a comprehensive academic management web application.
+* Features structured user roles, role-based workflows, and automated advising logic.
 </details>
 
 <details>
 <summary>📂 <b>Real-Time Collaboration Engine</b> (MERN Stack/Socket.io)</summary>
 
-*   Engineered a responsive web system for real-time interaction.
-*   Integrated Socket.io for dynamic bi-directional messaging and live notifications.
+* Engineered a responsive web system for real-time interaction.
+* Integrated Socket.io for dynamic bi-directional messaging and live notifications.
 </details>
 
 <details>
 <summary>📂 <b>Freelance Domain Shop & E-Commerce</b> (Independent Development)</summary>
 
-*   Architected independent web storefronts with full domain configuration.
-*   Implemented automated operational workflows and integrated payment gateways.
+* Architected independent web storefronts with full domain configuration.
+* Implemented automated operational workflows and integrated payment gateways.
 </details>
 
 <details>
 <summary>📲 <b>Nabd Healthcare App (Concept)</b> (SwiftUI)</summary>
 
-*   *(New Addition)* A mock-up iOS application designed for tracking vital health metrics.
-*   Explores intuitive UI design and low-latency data presentation in a mobile environment.
+* *(New Addition)* A mock-up iOS application designed for tracking vital health metrics.
+* Explores intuitive UI design and low-latency data presentation in a mobile environment.
 </details>
 
 ---
