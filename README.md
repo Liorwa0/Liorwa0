@@ -1,100 +1,194 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=FFB6C1&height=200&section=header&text=Hi%20there!%20I'm%20Arwa%20Alhomrani%20🌸&fontSize=30&fontColor=ffffff&fontAlign=50&fontAlignY=38" width="100%" alt="Header" />
-  
-  <h3>Full-Stack Developer | Software Engineer Enthusiast | Accredited Saudi Developer</h3>
 
-  <p>
-    <a href="https://www.linkedin.com/in/arwa-alhomrani-29578a35a" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-FFC0CB?style=for-the-badge&logo=linkedin&logoColor=FF69B4" alt="LinkedIn" />
-    </a>
-    <a href="mailto:arwaalhomrani92@gmail.com">
-      <img src="https://img.shields.io/badge/Email-FFB6C1?style=for-the-badge&logo=gmail&logoColor=ffffff" alt="Email" />
-    </a>
-  </p>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFC0CB,50:E6C6FF,100:DDA0DD&height=220&section=header&text=ARWA%20ALHOMRANI&fontSize=43&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full-Stack%20Developer&descSize=17&descAlignY=58&animation=fadeIn" width="100%" />
+
+<br/>
+
+### Building ideas into meaningful software. ♡
+
+<p>
+  <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=19&duration=3000&pause=1000&color=D88CCB&center=true&vCenter=true&width=550&lines=Software+Engineering+Enthusiast;Full-Stack+Web+Developer;Problem+Solver+%26+Continuous+Learner;Turning+Ideas+Into+Code+%E2%9C%A8" />
+</p>
+
+<p>
+  <a href="https://www.linkedin.com/in/arwa-alhomrani-29578a35a">
+    <img src="https://img.shields.io/badge/LINKEDIN-E8B8D8?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:arwaalhomrani92@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-D8B8E8?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://github.com/Liorwa0">
+    <img src="https://img.shields.io/badge/GITHUB-F3C6D8?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+📍 Riyadh, Saudi Arabia 🇸🇦
+
 </div>
 
 ---
 
-### 👩‍💻 About Me
+## ✧ ABOUT ME
 
-* 🎓 **Education:** Princess Nourah University | Computer Science and Programming
-* 🚀 **Bootcamps:** Software Engineering Foundations | Tuwaiq Academy × Holberton School
-* 💼 **Experience:** Former Full-Stack Web Developer Trainee at **Saudi Chemical Company Holding**
-* 💡 **Focus:** Building scalable full-stack applications with the **MERN Stack** and low-level system design using **C**
-* 🌐 **Freelance:** Accredited Freelance Licensed Web & Software Developer (Saudi Arabia)
+I'm **Arwa Alhomrani**, a Software Engineering enthusiast and Full-Stack Developer with a background in Computer Science and Programming.
 
----
+I enjoy transforming ideas into practical software solutions, exploring system architecture, and building applications that combine functionality, performance, and thoughtful design.
 
-### 🛠️ Tech Stack & Tools (Soft & Pastel Style)
+My experience spans web development, backend engineering, API development, real-time communication, and system-level programming.
 
-**Programming Languages:**  
-![C](https://img.shields.io/badge/C-%23FFFFFF?style=flat-square&logo=c&logoColor=A8B9CC)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23FFFFFF?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Java](https://img.shields.io/badge/Java-%23FFFFFF?style=flat-square&logo=openjdk&logoColor=ED8B00)
-![Swift](https://img.shields.io/badge/Swift-%23FFFFFF?style=flat-square&logo=swift&logoColor=F05138)
-![HTML5](https://img.shields.io/badge/HTML5-%23FFFFFF?style=flat-square&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/CSS3-%23FFFFFF?style=flat-square&logo=css3&logoColor=1572B6)
+- 🎓 Computer Science & Programming — Princess Nourah University.
+- 🚀 Software Engineering Program — Tuwaiq Academy × Holberton School.
+- 💼 Former Full-Stack Developer Intern — Saudi Chemical Company.
+- 🇸🇦 Saudi Freelance Developer.
+- 🤖 Interested in Artificial Intelligence and intelligent software solutions.
+- 💡 Passionate about problem-solving, clean code, and continuous learning.
 
-**Frameworks & Libraries:**  
-![React](https://img.shields.io/badge/React-%23FFFFFF?style=flat-square&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-%23FFFFFF?style=flat-square&logo=nodedotjs&logoColor=339933)
-![Express.js](https://img.shields.io/badge/Express.js-%23FFFFFF?style=flat-square&logo=express&logoColor=000000)
-![Socket.io](https://img.shields.io/badge/Socket.io-%23FFFFFF?style=flat-square&logo=socketdotio&logoColor=010101)
-
-**Databases & Tools:**  
-![MongoDB](https://img.shields.io/badge/MongoDB-%23FFFFFF?style=flat-square&logo=mongodb&logoColor=47A248)
-![Git](https://img.shields.io/badge/Git-%23FFFFFF?style=flat-square&logo=git&logoColor=F05032)
-![Linux](https://img.shields.io/badge/Linux-%23FFFFFF?style=flat-square&logo=linux&logoColor=black)
+**My goal:** To grow into a strong Software Engineer capable of designing, developing, and delivering reliable software systems.
 
 ---
 
-### 🏆 Certifications & Professional Licenses
+## ✧ TECHNICAL EXPERTISE
 
-| Icon | Accreditation / Course | Issuing Organization |
-| :---: | :--- | :--- |
-| 🇸🇦 | **Accredited Freelance Web Developer License** | Ministry of Human Resources (KSA) |
-| 🎓 | **Software Engineering Foundations Certificate** | Holberton School |
-| 🚀 | **Immersive Software Engineering Bootcamp** | Tuwaiq Academy |
+### Programming Languages
 
----
-
-### 💻 Highlighted Projects (Pink & Purple Accents)
-
-> Click the project titles to see details.
-
-<details>
-<summary>📂 <b>Academic Advising Platform</b> (Java/MongoDB)</summary>
-
-* Built a comprehensive academic management web application.
-* Features structured user roles, role-based workflows, and automated advising logic.
-</details>
-
-<details>
-<summary>📂 <b>Real-Time Collaboration Engine</b> (MERN Stack/Socket.io)</summary>
-
-* Engineered a responsive web system for real-time interaction.
-* Integrated Socket.io for dynamic bi-directional messaging and live notifications.
-</details>
-
-<details>
-<summary>📂 <b>Freelance Domain Shop & E-Commerce</b> (Independent Development)</summary>
-
-* Architected independent web storefronts with full domain configuration.
-* Implemented automated operational workflows and integrated payment gateways.
-</details>
-
-<details>
-<summary>📲 <b>Nabd Healthcare App (Concept)</b> (SwiftUI)</summary>
-
-* *(New Addition)* A mock-up iOS application designed for tracking vital health metrics.
-* Explores intuitive UI design and low-latency data presentation in a mobile environment.
-</details>
-
----
-
-### 📊 GitHub Insights (Pink & Gold Theme)
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Liorwa0&show_icons=true&title_color=D8BFD8&text_color=FF69B4&icon_color=FFB6C1&bg_color=FFF0F5" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Liorwa0&layout=compact&title_color=D8BFD8&text_color=FF69B4&icon_color=FFB6C1&bg_color=FFF0F5" alt="Top Languages" />
+<p>
+<img src="https://skillicons.dev/icons?i=c,python,cs,js,html,css,java&theme=light" />
 </p>
+
+### Frameworks & Development
+
+<p>
+<img src="https://skillicons.dev/icons?i=dotnet,react,nodejs,express,bootstrap&theme=light" />
+</p>
+
+### Databases & Technologies
+
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite&theme=light" />
+</p>
+
+### Tools & Environment
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,linux,vscode,visualstudio&theme=light" />
+</p>
+
+**Areas of Interest**
+
+`Full-Stack Development` · `REST APIs` · `Backend Engineering` · `System Programming` · `Database Design` · `AI Integration` · `Real-Time Applications`
+
+---
+
+## ✧ PROFESSIONAL EXPERIENCE
+
+### Full-Stack Developer Intern
+**Saudi Chemical Company Holding** | Riyadh, Saudi Arabia
+
+*September 2025 – December 2025*
+
+- Contributed to full-stack web application development.
+- Worked with Node.js and Express.js to develop backend functionality.
+- Implemented RESTful API workflows and authentication mechanisms.
+- Explored secure application development using JWT and encryption.
+- Worked on real-time communication features using Socket.io.
+- Developed multi-role dashboards and application workflows.
+
+---
+
+## ✧ FEATURED PROJECTS
+
+### 01 — Academia KSA
+**Smart Academic Guidance Platform**
+
+`Java` `MongoDB` `Web Development`
+
+- Developed an academic guidance platform concept.
+- Designed structured user roles and academic workflows.
+- Focused on organizing academic information and improving the advising experience.
+
+### 02 — NEXUS HR
+**Human Resources Management System**
+
+`C#` `ASP.NET Core` `Entity Framework` `JavaScript` `Three.js` `Chart.js`
+
+- Designed an HR management system prototype.
+- Explored structured employee management workflows.
+- Worked with backend architecture and data management.
+- Incorporated interactive visualizations and modern frontend technologies.
+
+### 03 — Fleet.AI
+**Intelligent Logistics Management Prototype**
+
+`Python` `Artificial Intelligence` `Software Development`
+
+- Explored AI-assisted logistics and fleet management.
+- Designed a prototype integrating an AI-powered Python module.
+- Focused on intelligent workflows and operational insights.
+
+### 04 — System Utilities & Custom Shell
+**Low-Level Programming**
+
+`C` `Linux` `System Programming`
+
+- Developed system-level programming exercises and utilities.
+- Explored command execution and shell concepts.
+- Strengthened understanding of memory, processes, and operating system fundamentals.
+
+### 05 — Techium
+**Responsive Front-End Website**
+
+`HTML5` `CSS3` `Responsive Design`
+
+- Built a multi-section website as part of frontend engineering coursework.
+- Implemented responsive layouts, reusable styling, and navigation.
+- Explored CSS architecture, animations, themes, and accessibility fundamentals.
+
+---
+
+## ✧ EDUCATION & CERTIFICATIONS
+
+| Qualification | Institution |
+|---|---|
+| Computer Science & Programming Diploma | Princess Nourah University |
+| Software Engineering Program | Holberton School × Tuwaiq Academy |
+| Artificial Intelligence Certifications | SDAIA |
+| Freelance Web & Software Developer License | Saudi Arabia |
+
+---
+
+## ✧ GITHUB STATISTICS
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Liorwa0&show_icons=true&hide_border=true&bg_color=FFF7FB&title_color=C77DBB&icon_color=DB9ACB&text_color=74546D&rank_icon=github" />
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Liorwa0&layout=compact&hide_border=true&bg_color=FFF7FB&title_color=C77DBB&text_color=74546D" />
+
+<br/><br/>
+
+<img width="75%" src="https://streak-stats.demolab.com?user=Liorwa0&hide_border=true&background=FFF7FB&ring=DDA0DD&fire=FFB6C1&currStreakLabel=C77DBB&sideLabels=74546D&dates=A78AA5" />
+
+</div>
+
+---
+
+## ✧ CURRENTLY GROWING
+
+- Deepening my Software Engineering foundations.
+- Improving Data Structures and Algorithms.
+- Strengthening backend and system design skills.
+- Exploring Artificial Intelligence and cloud technologies.
+- Building practical projects and expanding my engineering portfolio.
+
+---
+
+<div align="center">
+
+### Thanks for visiting my profile! ♡
+
+*Code with purpose. Build with passion. Keep growing.*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFC0CB,50:E6C6FF,100:DDA0DD&height=120&section=footer" width="100%" />
+
+</div>
