@@ -1,71 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 260" width="820" height="260">
-  <!-- Main Banner Box -->
-  <rect width="820" height="260" rx="20" fill="#FFD6E8" stroke="#F4A261" stroke-width="2" />
-  
-  <!-- Sky Light -->
-  <rect x="10" y="10" width="800" height="190" rx="14" fill="#FFE5EC" />
-
-  <!-- Yellow Sun -->
-  <g transform="translate(560, 25)">
-    <circle cx="35" cy="35" r="30" fill="#FFE066" />
-    <circle cx="35" cy="35" r="22" fill="#FFF3BF" />
-  </g>
-
-  <!-- Pixel Clouds -->
-  <g fill="#FFFFFF">
-    <rect x="50" y="30" width="70" height="18" rx="4" />
-    <rect x="300" y="45" width="80" height="20" rx="4" />
-    <rect x="680" y="35" width="60" height="16" rx="4" />
-  </g>
-
-  <!-- Green/Pink Grass Base -->
-  <rect x="10" y="170" width="800" height="80" rx="0" fill="#4E7C59" />
-  <rect x="10" y="170" width="800" height="10" fill="#6B9B74" />
-
-  <!-- Pixel Flowers -->
-  <g transform="translate(200, 160)">
-    <rect x="10" y="10" width="6" height="15" fill="#386641" />
-    <rect x="6" y="4" width="14" height="6" fill="#F472B6" />
-    <rect x="10" y="0" width="6" height="14" fill="#F472B6" />
-    <rect x="10" y="6" width="6" height="4" fill="#FFE066" />
-  </g>
-  <g transform="translate(450, 160)">
-    <rect x="10" y="10" width="6" height="15" fill="#386641" />
-    <rect x="6" y="4" width="14" height="6" fill="#FDE68A" />
-    <rect x="10" y="0" width="6" height="14" fill="#FDE68A" />
-    <rect x="10" y="6" width="6" height="4" fill="#F472B6" />
-  </g>
-
-  <!-- Pixel Cat (Pink / Yellow Palette) -->
-  <g transform="translate(80, 105)">
-    <!-- Ears -->
-    <rect x="10" y="0" width="15" height="20" fill="#4A1E36" />
-    <rect x="65" y="0" width="15" height="20" fill="#4A1E36" />
-    <rect x="15" y="5" width="8" height="10" fill="#F472B6" />
-    <rect x="67" y="5" width="8" height="10" fill="#F472B6" />
-    <!-- Head & Body -->
-    <rect x="5" y="15" width="80" height="65" fill="#FDE68A" rx="4" />
-    <!-- Cheeks -->
-    <rect x="12" y="45" width="14" height="8" fill="#F472B6" />
-    <rect x="64" y="45" width="14" height="8" fill="#F472B6" />
-    <!-- Eyes -->
-    <rect x="22" y="35" width="8" height="10" fill="#4A1E36" />
-    <rect x="60" y="35" width="8" height="10" fill="#4A1E36" />
-    <!-- Mouth -->
-    <rect x="42" y="45" width="6" height="4" fill="#4A1E36" />
-    <!-- Tail -->
-    <rect x="85" y="50" width="20" height="12" fill="#FDE68A" />
-    <rect x="95" y="35" width="12" height="20" fill="#FDE68A" />
-  </g>
-
-  <!-- Speech Bubble -->
-  <g transform="translate(220, 90)">
-    <rect x="0" y="0" width="530" height="70" rx="12" fill="#1F111D" stroke="#F472B6" stroke-width="2" />
-    <!-- Bubble Pointer -->
-    <polygon points="-10,35 0,25 0,45" fill="#1F111D" />
-    
-    <text x="25" y="28" font-family="&#39;Courier New&#39;, monospace" font-weight="bold" font-size="14" fill="#FFE066">mimi <tspan fill="#F472B6">says:</tspan></text>
-    <text x="25" y="50" font-family="&#39;Courier New&#39;, monospace" font-size="13" fill="#FFFFFF">hi! i guard arwa's code. databases are sync'd,</text>
-    <text x="400" y="50" font-family="&#39;Courier New&#39;, monospace" font-size="13" fill="#FDE68A" font-weight="bold">very cute! 🐾</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+<defs><linearGradient id="night" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#362331"/><stop offset=".55" stop-color="#6B4355"/><stop offset="1" stop-color="#B47B88"/></linearGradient><linearGradient id="moon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF1CB"/><stop offset="1" stop-color="#C99A62"/></linearGradient></defs>
+<style>
+ .tw{transform-box:fill-box;transform-origin:center;animation:tw 2.7s ease-in-out infinite}
+ .drift{animation:drift 9s ease-in-out infinite}
+ .pulse{animation:pulse 4s ease-in-out infinite}
+ @keyframes tw{0%,100%{opacity:.2;transform:scale(.65) rotate(0)}50%{opacity:1;transform:scale(1.2) rotate(20deg)}}
+ @keyframes drift{0%,100%{transform:translateX(0)}50%{transform:translateX(16px)}}
+ @keyframes pulse{0%,100%{opacity:.4}50%{opacity:.95}}
+</style>
+<rect width="1000" height="260" rx="20" fill="url(#night)" stroke="#C99A62" stroke-width="2"/>
+<circle cx="800" cy="100" r="78" fill="#F5DDAE" opacity=".12" class="pulse"/>
+<path d="M820 38a62 62 0 1 0 48 102 66 66 0 0 1-48-102" fill="url(#moon)"/>
+<g fill="#F7E3B9">
+ <path class="tw" d="M120 42l5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/>
+ <path class="tw" style="animation-delay:.8s" d="M300 170l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+ <path class="tw" style="animation-delay:1.4s" d="M690 50l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+ <path class="tw" style="animation-delay:.4s" d="M940 190l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+ <path class="tw" style="animation-delay:1.8s" d="M520 205l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+</g>
+<g fill="#FFECCF"><circle cx="205" cy="85" r="2"/><circle cx="405" cy="50" r="2"/><circle cx="610" cy="135" r="2"/><circle cx="920" cy="55" r="2"/><circle cx="80" cy="205" r="2"/></g>
+<path d="M65 220Q250 170 440 215T760 210T970 215" fill="none" stroke="#E8C99A" stroke-opacity=".5"/>
+<g class="drift" fill="none" stroke="#E8C99A" stroke-width="1.2" opacity=".65"><path d="M140 110l45 -25 38 30 42 -44 42 25"/><path d="M185 85l0 -9m38 39l7 9m42 -53l-4 -8"/></g>
+<text x="500" y="115" text-anchor="middle" font-family="Georgia,serif" font-size="27" letter-spacing="4" fill="#FFF1E2">A LITTLE STARDUST, A LOT OF CODE</text>
+<text x="500" y="151" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" letter-spacing="4" fill="#F2D6B2">MADE WITH CURIOSITY  ✧  BUILT WITH PURPOSE</text>
 </svg>
