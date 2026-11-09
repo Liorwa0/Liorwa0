@@ -34,10 +34,10 @@
   <img src="https://skillicons.dev/icons?i=c,js,java,swift,html,css,react,nodejs,express,mongodb,git,linux,vscode&theme=light" alt="Technologies and development tools"/>
 </p>
 
-<h3 align="center">✦ MY CONTRIBUTION CONSTELLATION ✦</h3>
+<h3 align="center">✦ MY GOLDEN STAR TRAIL ✦</h3>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Liorwa0/Liorwa0/output/snake.svg" width="100%" alt="Animated rose-gold contribution snake"/>
+  <img src="https://raw.githubusercontent.com/Liorwa0/Liorwa0/output/snake.svg" width="100%" alt="Animated rose-gold star trail following GitHub contributions"/>
 </p>
 
 <p align="center">
