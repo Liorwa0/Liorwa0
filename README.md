@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="asset/header.svg" width="100%" alt="Arwa Alhomrani — Software Engineer in the making, surrounded by a rose-gold celestial sky"/>
+  <img src="asset/header.svg" width="100%" alt="Arwa Alhomrani — Software Engineer in the making, beneath an animated rose-gold constellation sky"/>
 </p>
 
 <p align="center">
-  <img src="asset/card.svg" width="100%" alt="Arwa's developer profile, technologies and current focus"/>
+  <img src="asset/card.svg" width="100%" alt="Arwa's developer profile, engineering focus and technology stack"/>
 </p>
 
-<h3 align="center">✦ WHAT I'M BUILDING</h3>
+<h3 align="center">✦ WHAT I'M BUILDING ✦</h3>
 
 <table align="center">
 <tr>
@@ -28,10 +28,10 @@
 </tr>
 </table>
 
-<h3 align="center">✦ MY TOOLKIT</h3>
+<h3 align="center">✦ MY TOOLKIT ✦</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,js,java,swift,html,css,react,nodejs,express,mongodb,git,linux,vscode&theme=light" />
+  <img src="https://skillicons.dev/icons?i=c,js,java,swift,html,css,react,nodejs,express,mongodb,git,linux,vscode&theme=light" alt="Technologies and development tools"/>
 </p>
 
 <p align="center">
@@ -39,7 +39,7 @@
 </p>
 
 <p align="center">
-  <img src="asset/byte.svg" width="100%" alt="A little celestial corner of Arwa's world, with a golden moon and animated stars"/>
+  <img src="asset/byte.svg" width="100%" alt="Animated rose-gold moon, shooting stars and constellation artwork"/>
 </p>
 
 <p align="center">
