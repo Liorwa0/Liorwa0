@@ -1,0 +1,22 @@
+{
+  "owner": "Liorwa0",
+  "note": "Update status only when Arwa has genuinely practiced or completed the skill. Use learning, practiced, or mastered.",
+  "categories": [
+    {"name":"Frontend","skills":[
+      {"name":"HTML","status":"practiced"},{"name":"CSS","status":"learning"},{"name":"JavaScript","status":"learning"},{"name":"React","status":"learning"}
+    ]},
+    {"name":"Backend","skills":[
+      {"name":"C","status":"practiced"},{"name":"Java","status":"learning"},{"name":"Node.js","status":"learning"},{"name":"Express","status":"learning"}
+    ]},
+    {"name":"Database","skills":[
+      {"name":"MongoDB","status":"learning"}
+    ]},
+    {"name":"Developer Tools","skills":[
+      {"name":"Linux","status":"practiced"},{"name":"Git","status":"practiced"}
+    ]},
+    {"name":"Mobile","skills":[
+      {"name":"Swift","status":"learning"}
+    ]}
+  ],
+  "projects": []
+}
