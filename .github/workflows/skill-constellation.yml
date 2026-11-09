@@ -1,0 +1,21 @@
+name: Refresh Arwa's Skill Constellation
+
+on:
+  push:
+    paths:
+      - 'data/skill-progress.json'
+      - 'scripts/validate_skill_progress.py'
+      - '.github/workflows/skill-constellation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-progress:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+      - name: Validate skill progress
+        run: python scripts/validate_skill_progress.py
