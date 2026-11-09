@@ -28,6 +28,14 @@
 </tr>
 </table>
 
+<h3 align="center">✦ ARWA'S SKILL CONSTELLATION ✦</h3>
+
+<p align="center">
+  <img src="asset/skill-constellation.svg" width="100%" alt="Arwa's animated rose-gold skill constellation connecting frontend, backend, databases, developer tools and mobile technologies"/>
+</p>
+
+<p align="center"><sub>Each skill is a star. Every connection is another step in my software engineering journey.</sub></p>
+
 <h3 align="center">✦ MY TOOLKIT ✦</h3>
 
 <p align="center">
