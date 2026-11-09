@@ -42,6 +42,13 @@
   <img src="https://skillicons.dev/icons?i=c,js,java,swift,html,css,react,nodejs,express,mongodb,git,linux,vscode&theme=dark" alt="Technologies and development tools"/>
 </p>
 
+<h3 align="center">✦ GITHUB AT A GLANCE ✦</h3>
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Liorwa0&show_icons=true&hide_border=true&bg_color=080D1B&title_color=E8D2A6&icon_color=D8B77B&text_color=DED3C1&ring_color=C99B72&include_all_commits=true" alt="GitHub profile statistics"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Liorwa0&layout=compact&hide_border=true&bg_color=080D1B&title_color=E8D2A6&text_color=DED3C1&langs_count=6" alt="Most used programming languages"/>
+</p>
+
 <h3 align="center">✦ CONTRIBUTION TRAIL ✦</h3>
 
 <p align="center">
@@ -58,4 +65,4 @@
   <a href="https://github.com/Liorwa0"><img src="https://img.shields.io/badge/GITHUB-172235?style=for-the-badge&logo=github&logoColor=E6CC9C" /></a>
 </p>
 
-<p align="center"><sub>✧ Building with curiosity. Connecting ideas. Leaving a trail of stars. ✧</sub></p>
+<p align="center"><sub>BUILDING MY UNIVERSE, ONE LINE OF CODE AT A TIME</sub></p>\n<p align="center"><sub>✧ Curiosity is the compass. Code is the craft. ✧</sub></p>
