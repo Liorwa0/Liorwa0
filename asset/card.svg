@@ -1,1 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" width="820" height="440">
+  <!-- Outer Frame -->
+  <rect width="820" height="440" rx="16" fill="#FFF5F8" stroke="#F472B6" stroke-width="2" />
+  
+  <!-- Terminal Window Background -->
+  <rect x="25" y="25" width="770" height="390" rx="12" fill="#FFFDF9" stroke="#FCE7F3" stroke-width="2" />
+  
+  <!-- Window Title Bar -->
+  <path d="M 25 37 A 12 12 0 0 1 37 25 L 783 25 A 12 12 0 0 1 795 37 L 795 60 L 25 60 Z" fill="#FCE7F3" />
+  <circle cx="50" cy="42" r="6" fill="#FF5F56" />
+  <circle cx="70" cy="42" r="6" fill="#FFBD2E" />
+  <circle cx="90" cy="42" r="6" fill="#27C93F" />
+  <text x="410" y="46" font-family="monospace" font-size="12" fill="#9D174D" text-anchor="middle">arwa@riyadh: ~ - fastfetch</text>
 
+  <!-- Prompt Command -->
+  <text x="50" y="90" font-family="&#39;Courier New&#39;, monospace" font-weight="bold" font-size="15" fill="#D97706">arwa@riyadh:~$ <tspan fill="#E11D48">fastfetch</tspan></text>
+  
+  <!-- Left Side Pixel Icon -->
+  <g transform="translate(60, 130)">
+    <rect x="20" y="10" width="90" height="15" fill="#F472B6" />
+    <rect x="10" y="35" width="110" height="12" fill="#FDE68A" />
+    <text x="65" y="80" font-family="monospace" font-size="14" font-weight="bold" fill="#9D174D" text-anchor="middle">< CODE /></text>
+    <rect x="25" y="100" width="80" height="8" fill="#F472B6" />
+    <rect x="35" y="115" width="60" height="8" fill="#FDE68A" />
+    <text x="65" y="145" font-family="monospace" font-size="11" fill="#7C3AED" text-anchor="middle">engineered ✓</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="220" y1="110" x2="220" y2="380" stroke="#FCE7F3" stroke-width="2" />
+
+  <!-- Info Table Text -->
+  <g font-family="&#39;Courier New&#39;, monospace" font-size="13">
+    <!-- Username Header -->
+    <text x="250" y="125" font-weight="bold" font-size="16" fill="#D97706">arwa<tspan fill="#E11D48">@alhomrani</tspan></text>
+    <line x1="250" y1="135" x2="740" y2="135" stroke="#F472B6" stroke-dasharray="4" />
+
+    <!-- Labels & Values -->
+    <text x="250" y="165" font-weight="bold" fill="#9D174D">Role</text>
+    <text x="360" y="165" fill="#B45309" font-weight="600">Software Engineer · Full-Stack Developer</text>
+
+    <text x="250" y="195" font-weight="bold" fill="#9D174D">Host</text>
+    <text x="360" y="195" fill="#374151">Riyadh, Saudi Arabia 🇸🇦</text>
+
+    <text x="250" y="225" font-weight="bold" fill="#9D174D">Kernel</text>
+    <text x="360" y="225" fill="#374151">B.Sc. Computer Science - PNU</text>
+
+    <text x="250" y="255" font-weight="bold" fill="#9D174D">Modules</text>
+    <text x="360" y="255" fill="#B45309" font-weight="600">Tuwaiq Academy × Holberton School</text>
+
+    <text x="250" y="285" font-weight="bold" fill="#9D174D">Experience</text>
+    <text x="360" y="285" fill="#374151">Saudi Chemical Company Holding</text>
+
+    <text x="250" y="315" font-weight="bold" fill="#9D174D">Packages</text>
+    <text x="360" y="315" fill="#B45309" font-weight="600">React, Node.js, Express, MongoDB, Swift, C</text>
+
+    <text x="250" y="345" font-weight="bold" fill="#9D174D">Projects</text>
+    <text x="360" y="345" fill="#374151">Academic Advising · Collaboration Engine · Nabd</text>
+
+    <text x="250" y="375" font-weight="bold" fill="#9D174D">Locale</text>
+    <text x="360" y="375" fill="#374151">Arabic (native) · English</text>
+
+    <!-- Terminal Colors Palette Blocks -->
+    <rect x="250" y="392" width="20" height="12" fill="#F472B6" />
+    <rect x="275" y="392" width="20" height="12" fill="#FDE68A" />
+    <rect x="300" y="392" width="20" height="12" fill="#F43F5E" />
+    <rect x="325" y="392" width="20" height="12" fill="#FBBF24" />
+    <rect x="350" y="392" width="20" height="12" fill="#A855F7" />
+    <rect x="375" y="392" width="20" height="12" fill="#38BDF8" />
+  </g>
+</svg>
