@@ -1,61 +1,58 @@
 <p align="center">
-  <img src="asset/header.svg" width="820" alt="Arwa Alhomrani · Software Engineer · Full-Stack Developer · Riyadh, Saudi Arabia"/>
+  <img src="asset/header.svg" width="100%" alt="Arwa Alhomrani — Software Engineer in the making, surrounded by a rose-gold celestial sky"/>
 </p>
 
 <p align="center">
-  <img src="asset/card.svg" width="820" alt="fastfetch-style card: my role, stack, projects and languages"/>
+  <img src="asset/card.svg" width="100%" alt="Arwa's developer profile, technologies and current focus"/>
 </p>
 
-<h3 align="center">🌸 things i've built</h3>
+<h3 align="center">✦ WHAT I'M BUILDING</h3>
 
 <table align="center">
 <tr>
 <td width="33%" valign="top" align="center">
-
-<br/>
-**[Academic Advising Platform](#)**<br/>
-<sub>Structured user roles & permissions, automated advising logic and academic workflows.</sub>
-
+  <img src="https://img.shields.io/badge/01-ROSE%20GOLD-C99A78?style=flat-square" /><br/><br/>
+  **Academic Advising Platform**<br/>
+  <sub>Role-based access, structured academic workflows and automated advising logic.</sub>
 </td>
 <td width="33%" valign="top" align="center">
-
-<br/>
-**[Real-Time Collaboration Engine](#)**<br/>
-<sub>Bi-directional communication using Socket.io, dynamic messaging & full-stack architecture.</sub>
-
+  <img src="https://img.shields.io/badge/02-CHAMPAGNE-E8D4A2?style=flat-square" /><br/><br/>
+  **Real-Time Collaboration Engine**<br/>
+  <sub>Full-stack collaboration with Socket.io, real-time messaging and dynamic interactions.</sub>
 </td>
 <td width="33%" valign="top" align="center">
-
-<br/>
-**[Nabd Healthcare App](#)**<br/>
-<sub>SwiftUI iOS application concept exploring real-time tracking of vital health metrics.</sub>
-
+  <img src="https://img.shields.io/badge/03-DUSTY%20ROSE-D68FA5?style=flat-square" /><br/><br/>
+  **Nabd Healthcare App**<br/>
+  <sub>A SwiftUI iOS concept exploring real-time tracking of vital health metrics.</sub>
 </td>
 </tr>
 </table>
 
-<h3 align="center">🌸 tools i use</h3>
+<h3 align="center">✦ MY TOOLKIT</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,js,java,swift,html,css,react,nodejs,express,mongodb,git,linux,vscode&theme=light" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Liorwa0/Liorwa0/output/github-contribution-grid-snake-dark.svg" width="820" alt="a snake eating my contribution graph"/>
+  <img src="https://raw.githubusercontent.com/Liorwa0/Liorwa0/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake animation"/>
 </p>
 
 <p align="center">
-  <img src="asset/byte.svg" width="820" alt="Mimi pixel cat in sunny pink garden"/>
+  <img src="asset/byte.svg" width="100%" alt="A little celestial corner of Arwa's world, with a golden moon and animated stars"/>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/arwa-alhomrani-29578a35a"><img src="https://img.shields.io/badge/linkedin-F472B6?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:arwaalhomrani92@gmail.com"><img src="https://img.shields.io/badge/email-FDE68A?style=for-the-badge&logo=gmail&logoColor=333" /></a>
-  <a href="https://github.com/Liorwa0"><img src="https://img.shields.io/badge/github-4A1E36?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/arwa-alhomrani-29578a35a"><img src="https://img.shields.io/badge/LINKEDIN-CB8FA5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:arwaalhomrani92@gmail.com"><img src="https://img.shields.io/badge/EMAIL-C99A78?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/Liorwa0"><img src="https://img.shields.io/badge/GITHUB-513541?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <sub>✧ building with intention, learning with curiosity, and leaving a little stardust in every commit ✧</sub>
 </p>
 
 <details>
-  <summary><sub>· · ·</sub></summary>
-  <p align="center"><sub>you found the fine print!! everything up there is hand-built pixel art living in this repo 🌸</sub></p>
-  <p align="center"><sub>make sure to give me a follow :D</sub></p>
+  <summary><sub>✦ a little note</sub></summary>
+  <p align="center"><sub>This space is a work in progress — just like every good engineer. Thanks for stopping by.</sub></p>
 </details>
