@@ -48,8 +48,21 @@ jobs:
           svg, count = pattern.subn(star, svg)
           if count == 0:
               raise SystemExit("No animated snake segments found; refusing to publish an unchanged image.")
+
+          # Fill the growing trail with repeating tiny stars, while the moving head
+          # becomes a larger four-point sparkle.
+          patterns = """
+          <defs>
+            <pattern id="trailRose" patternUnits="userSpaceOnUse" width="16" height="12"><path d="M8 1 L9.7 5 L15 6 L9.7 7 L8 11 L6.3 7 L1 6 L6.3 5 Z" fill="#E8C18D"/></pattern>
+            <pattern id="trailChampagne" patternUnits="userSpaceOnUse" width="16" height="12"><path d="M8 1 L9.7 5 L15 6 L9.7 7 L8 11 L6.3 7 L1 6 L6.3 5 Z" fill="#F2D7AD"/></pattern>
+            <pattern id="trailDusty" patternUnits="userSpaceOnUse" width="16" height="12"><path d="M8 1 L9.7 5 L15 6 L9.7 7 L8 11 L6.3 7 L1 6 L6.3 5 Z" fill="#C99469"/></pattern>
+            <pattern id="trailBlush" patternUnits="userSpaceOnUse" width="16" height="12"><path d="M8 1 L9.7 5 L15 6 L9.7 7 L8 11 L6.3 7 L1 6 L6.3 5 Z" fill="#DDA9A0"/></pattern>
+          </defs>
+          """
+          svg = svg.replace("<style>", patterns + "<style>", 1)
+          svg = svg.replace("</style>", ".u.u0{fill:url(#trailRose)}.u.u1{fill:url(#trailChampagne)}.u.u2{fill:url(#trailDusty)}.u.u3{fill:url(#trailBlush)}</style>", 1)
           file.write_text(svg, encoding="utf-8")
-          print(f"Converted {count} moving segments into rose-gold starbursts.")
+          print(f"Converted {count} moving head layers and added a repeating star trail.")
           PY
 
       - name: Publish animation to output branch
