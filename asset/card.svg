@@ -1,42 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="440" viewBox="0 0 1000 440">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t">
+<title id="t">A short introduction to Arwa</title>
 <defs>
- <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#21171D"/><stop offset="1" stop-color="#4B2C3A"/></linearGradient>
- <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFF0D0"/><stop offset=".5" stop-color="#C99469"/><stop offset="1" stop-color="#F7E3BE"/></linearGradient>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080e1c"/><stop offset=".55" stop-color="#0d1423"/><stop offset="1" stop-color="#1c1722"/></linearGradient>
+ <linearGradient id="gold"><stop stop-color="#f4e3bb"/><stop offset=".5" stop-color="#c9a36c"/><stop offset="1" stop-color="#f0d8a8"/></linearGradient>
+ <radialGradient id="h"><stop stop-color="#754052" stop-opacity=".32"/><stop offset="1" stop-color="#754052" stop-opacity="0"/></radialGradient>
 </defs>
 <style>
- text{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
- .tw{transform-box:fill-box;transform-origin:center;animation:tw 2.7s ease-in-out infinite}
- .blink{animation:blink 1.1s steps(1) infinite}
- .rise{animation:rise .8s ease both}
- .orbit{transform-origin:805px 258px;animation:spin 38s linear infinite}
- @keyframes tw{0%,100%{opacity:.22;transform:scale(.65)}50%{opacity:1;transform:scale(1.25)}}
- @keyframes blink{50%{opacity:0}}
- @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
- @keyframes spin{to{transform:rotate(360deg)}}
+ text{font-family:Arial,Helvetica,sans-serif}.serif{font-family:Georgia,serif}
+ .line{stroke:#d5b77f;stroke-opacity:.35;fill:none}.star{fill:#f4e5c6;animation:blink 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+ @keyframes blink{50%{opacity:.25;transform:scale(.65)}}
 </style>
-<rect x="2" y="2" width="996" height="436" rx="22" fill="url(#panel)" stroke="#C99469" stroke-width="1.8"/>
-<rect x="15" y="15" width="970" height="410" rx="16" fill="none" stroke="#E8C18E" stroke-opacity=".22"/>
-<path d="M20 67H980" stroke="#C99469" stroke-opacity=".5"/>
-<circle cx="43" cy="42" r="5.5" fill="#D68FA5"/><circle cx="63" cy="42" r="5.5" fill="#D9B477"/><circle cx="83" cy="42" r="5.5" fill="#F5E8D0"/>
-<text x="500" y="47" fill="#EAD6BC" font-size="13" text-anchor="middle" letter-spacing="2">ARWA@CELESTIAL-DEV  ·  PROFILE.SYS</text>
-<g fill="#E8C99A"><path class="tw" d="M920 91l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/><path class="tw" style="animation-delay:1s" d="M951 153l3 7 7 3-7 3-3 7-3-7-7-3 7-3z"/></g>
-<text x="55" y="109" fill="#D9B477" font-size="15">$ whoami</text>
-<text x="55" y="145" fill="#FFF1E2" font-size="24" class="rise">Arwa Alhomrani</text>
-<text x="55" y="174" fill="#D9B477" font-size="14">Software Engineering Student · Holberton</text>
-<text x="55" y="222" fill="#D9B477" font-size="15">$ current_focus</text>
-<text x="55" y="252" fill="#F7EBDD" font-size="16">Software Engineering · Full-Stack Development</text>
-<text x="55" y="280" fill="#F7EBDD" font-size="16">Backend · APIs · Databases · Clean Code</text>
-<text x="55" y="330" fill="#D9B477" font-size="15">$ tech_stack</text>
-<text x="55" y="360" fill="#F7EBDD" font-size="15">C  /  JavaScript  /  Python  /  Java  /  Swift</text>
-<text x="55" y="389" fill="#F7EBDD" font-size="15">React  /  Node.js  /  MongoDB  /  Linux  /  Git</text>
-<text x="55" y="414" fill="#D9B477" font-size="13">Building thoughtfully, one commit at a time.</text>
-<text x="55" y="414" dx="315" fill="#F7EBDD" font-size="14" class="blink">▌</text>
-<g class="orbit" transform="translate(805 258)">
- <circle r="100" fill="none" stroke="#C89B68" stroke-opacity=".32"/>
- <circle r="79" fill="none" stroke="#C89B68" stroke-opacity=".24" stroke-dasharray="2 8"/>
- <path d="M0 -57l14 41 41 14-41 14L0 53l-14-41-41-14 41-14z" fill="#D9B477" opacity=".88"/>
- <circle r="12" fill="#FFF1D5"/>
-</g>
-<path class="tw" d="M670 120l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#E8C99A"/>
-<path class="tw" d="M930 342l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#E8C99A" style="animation-delay:1.4s"/>
+<rect width="1200" height="300" rx="8" fill="url(#bg)"/>
+<ellipse cx="990" cy="145" rx="250" ry="170" fill="url(#h)"/>
+<path class="line" d="M800 50L900 115 1015 55 1110 140 1040 245 900 220 800 50M900 115L1040 245M1015 55L1040 245"/>
+<g fill="#e8d5b3"><circle cx="800" cy="50" r="2"/><circle cx="900" cy="115" r="2.3"/><circle cx="1015" cy="55" r="2"/><circle cx="1110" cy="140" r="2"/><circle cx="1040" cy="245" r="2.2"/><circle cx="900" cy="220" r="1.7"/></g>
+<path class="star" d="M1015 30l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/>
+<path class="star" d="M855 180l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" style="animation-delay:1s"/>
+<text x="58" y="62" font-size="12" letter-spacing="4" fill="#c8aa79">01  /  THE PERSON BEHIND THE CODE</text>
+<text x="58" y="118" class="serif" font-size="37" fill="#fff2df">Engineering ideas into reality.</text>
+<text x="58" y="158" font-size="17" fill="#e3d5c3">Software Engineering student at Holberton</text>
+<text x="58" y="190" font-size="15" fill="#c9b79e">Focused on full-stack development, backend systems,</text>
+<text x="58" y="215" font-size="15" fill="#c9b79e">APIs, databases and writing thoughtful, maintainable code.</text>
+<path d="M58 250H710" stroke="url(#gold)" opacity=".6"/>
+<text x="58" y="276" font-size="11" letter-spacing="3" fill="#bda27b">LEARN  ·  BUILD  ·  REFINE</text>
 </svg>
