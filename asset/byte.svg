@@ -1,1 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 260" width="820" height="260">
+  <!-- Main Banner Box -->
+  <rect width="820" height="260" rx="20" fill="#FFD6E8" stroke="#F4A261" stroke-width="2" />
+  
+  <!-- Sky Light -->
+  <rect x="10" y="10" width="800" height="190" rx="14" fill="#FFE5EC" />
 
+  <!-- Yellow Sun -->
+  <g transform="translate(560, 25)">
+    <circle cx="35" cy="35" r="30" fill="#FFE066" />
+    <circle cx="35" cy="35" r="22" fill="#FFF3BF" />
+  </g>
+
+  <!-- Pixel Clouds -->
+  <g fill="#FFFFFF">
+    <rect x="50" y="30" width="70" height="18" rx="4" />
+    <rect x="300" y="45" width="80" height="20" rx="4" />
+    <rect x="680" y="35" width="60" height="16" rx="4" />
+  </g>
+
+  <!-- Green/Pink Grass Base -->
+  <rect x="10" y="170" width="800" height="80" rx="0" fill="#4E7C59" />
+  <rect x="10" y="170" width="800" height="10" fill="#6B9B74" />
+
+  <!-- Pixel Flowers -->
+  <g transform="translate(200, 160)">
+    <rect x="10" y="10" width="6" height="15" fill="#386641" />
+    <rect x="6" y="4" width="14" height="6" fill="#F472B6" />
+    <rect x="10" y="0" width="6" height="14" fill="#F472B6" />
+    <rect x="10" y="6" width="6" height="4" fill="#FFE066" />
+  </g>
+  <g transform="translate(450, 160)">
+    <rect x="10" y="10" width="6" height="15" fill="#386641" />
+    <rect x="6" y="4" width="14" height="6" fill="#FDE68A" />
+    <rect x="10" y="0" width="6" height="14" fill="#FDE68A" />
+    <rect x="10" y="6" width="6" height="4" fill="#F472B6" />
+  </g>
+
+  <!-- Pixel Cat (Pink / Yellow Palette) -->
+  <g transform="translate(80, 105)">
+    <!-- Ears -->
+    <rect x="10" y="0" width="15" height="20" fill="#4A1E36" />
+    <rect x="65" y="0" width="15" height="20" fill="#4A1E36" />
+    <rect x="15" y="5" width="8" height="10" fill="#F472B6" />
+    <rect x="67" y="5" width="8" height="10" fill="#F472B6" />
+    <!-- Head & Body -->
+    <rect x="5" y="15" width="80" height="65" fill="#FDE68A" rx="4" />
+    <!-- Cheeks -->
+    <rect x="12" y="45" width="14" height="8" fill="#F472B6" />
+    <rect x="64" y="45" width="14" height="8" fill="#F472B6" />
+    <!-- Eyes -->
+    <rect x="22" y="35" width="8" height="10" fill="#4A1E36" />
+    <rect x="60" y="35" width="8" height="10" fill="#4A1E36" />
+    <!-- Mouth -->
+    <rect x="42" y="45" width="6" height="4" fill="#4A1E36" />
+    <!-- Tail -->
+    <rect x="85" y="50" width="20" height="12" fill="#FDE68A" />
+    <rect x="95" y="35" width="12" height="20" fill="#FDE68A" />
+  </g>
+
+  <!-- Speech Bubble -->
+  <g transform="translate(220, 90)">
+    <rect x="0" y="0" width="530" height="70" rx="12" fill="#1F111D" stroke="#F472B6" stroke-width="2" />
+    <!-- Bubble Pointer -->
+    <polygon points="-10,35 0,25 0,45" fill="#1F111D" />
+    
+    <text x="25" y="28" font-family="&#39;Courier New&#39;, monospace" font-weight="bold" font-size="14" fill="#FFE066">mimi <tspan fill="#F472B6">says:</tspan></text>
+    <text x="25" y="50" font-family="&#39;Courier New&#39;, monospace" font-size="13" fill="#FFFFFF">hi! i guard arwa's code. databases are sync'd,</text>
+    <text x="400" y="50" font-family="&#39;Courier New&#39;, monospace" font-size="13" fill="#FDE68A" font-weight="bold">very cute! 🐾</text>
+  </g>
+</svg>
