@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+<title id="title">Arwa's Skill Constellation</title>
+<desc id="desc">A rose-gold celestial map connecting Arwa's technologies across frontend, backend, databases, mobile, and developer tools.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#21171D"/><stop offset=".52" stop-color="#38232E"/><stop offset="1" stop-color="#533342"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF1D0"/><stop offset=".48" stop-color="#E8C18D"/><stop offset="1" stop-color="#B98267"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#E8C18D" stop-opacity=".22"/><stop offset="1" stop-color="#E8C18D" stop-opacity="0"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<style>
+ text{font-family:Arial,Helvetica,sans-serif}
+ .eyebrow{font-size:13px;letter-spacing:4px;fill:#D8B995}
+ .heading{font-family:Georgia,serif;font-size:34px;letter-spacing:2px;fill:#FFF2E2}
+ .sub{font-size:14px;letter-spacing:1.5px;fill:#D7BBA6}
+ .group{font-size:14px;font-weight:bold;letter-spacing:2px;fill:#F2D7AD}
+ .tech{font-size:13px;fill:#FFF2E2}
+ .minor{font-size:11px;fill:#D9BBA7}
+ .link{fill:none;stroke:#D5A878;stroke-width:1.3;stroke-opacity:.42;stroke-dasharray:3 7}
+ .link2{fill:none;stroke:#E8C18D;stroke-width:1;stroke-opacity:.22}
+ .star{fill:url(#gold);transform-box:fill-box;transform-origin:center;animation:twinkle 3.2s ease-in-out infinite}
+ .delay1{animation-delay:.7s}.delay2{animation-delay:1.4s}.delay3{animation-delay:2.1s}.delay4{animation-delay:1.8s}
+ .node{fill:#38242E;stroke:#DDB887;stroke-width:1.4}
+ .core{fill:#FFF0D0;filter:url(#soft);opacity:.65}
+ .orbit{fill:none;stroke:#D9B477;stroke-opacity:.2;stroke-dasharray:2 9;transform-origin:550px 328px;animation:orbit 70s linear infinite}
+ .twinkle{animation:twinkle 2.8s ease-in-out infinite}
+ @keyframes twinkle{0%,100%{opacity:.32;transform:scale(.72)}50%{opacity:1;transform:scale(1.25)}}
+ @keyframes orbit{to{transform:rotate(360deg)}}
+ @media(prefers-reduced-motion:reduce){.star,.orbit,.twinkle{animation:none}}
+</style>
+<rect width="1100" height="650" rx="26" fill="url(#bg)"/>
+<rect x="12" y="12" width="1076" height="626" rx="20" fill="none" stroke="#D9B477" stroke-opacity=".55"/>
+<rect x="20" y="20" width="1060" height="610" rx="16" fill="none" stroke="#F3D9B8" stroke-opacity=".12"/>
+<circle cx="550" cy="330" r="300" fill="url(#glow)"/>
+<ellipse class="orbit" cx="550" cy="328" rx="455" ry="235"/>
+<ellipse class="orbit" cx="550" cy="328" rx="365" ry="190" style="animation-direction:reverse;animation-duration:90s"/>
+<text x="550" y="62" text-anchor="middle" class="eyebrow">ARWA'S PERSONAL KNOWLEDGE MAP</text>
+<text x="550" y="108" text-anchor="middle" class="heading">THE SKILL CONSTELLATION</text>
+<text x="550" y="137" text-anchor="middle" class="sub">A constellation of tools I explore, connect &amp; build with</text>
+<!-- constellation routes -->
+<g class="link">
+ <path d="M550 328L190 245L130 192L245 155L190 245L325 350"/>
+ <path d="M550 328L910 245L965 190L850 150L910 245L780 350"/>
+ <path d="M550 328L550 520L405 545L330 485L550 520L700 545L785 485"/>
+ <path d="M190 245L325 350L550 328L780 350L910 245"/>
+ <path d="M245 155L420 225L550 328L680 225L850 150"/>
+ <path d="M325 350L405 545M780 350L700 545"/>
+</g>
+<g class="link2">
+ <path d="M190 245L245 155L420 225L550 328L680 225L850 150L910 245"/>
+ <path d="M325 350L420 225M780 350L680 225M550 328L550 520"/>
+</g>
+<!-- frontend -->
+<g>
+ <circle class="node" cx="190" cy="245" r="78"/><circle class="core" cx="190" cy="245" r="20"/>
+ <text x="190" y="213" text-anchor="middle" class="group">FRONTEND</text>
+ <text x="190" y="241" text-anchor="middle" class="tech">HTML · CSS</text>
+ <text x="190" y="263" text-anchor="middle" class="tech">JavaScript · React</text>
+ <path class="star delay1" d="M190 153l5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/>
+</g>
+<!-- backend -->
+<g>
+ <circle class="node" cx="910" cy="245" r="78"/><circle class="core" cx="910" cy="245" r="20"/>
+ <text x="910" y="213" text-anchor="middle" class="group">BACKEND</text>
+ <text x="910" y="241" text-anchor="middle" class="tech">Node.js · Express</text>
+ <text x="910" y="263" text-anchor="middle" class="tech">C · Java</text>
+ <path class="star delay2" d="M910 153l5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/>
+</g>
+<!-- central constellation -->
+<g>
+ <circle cx="550" cy="328" r="112" fill="url(#glow)"/>
+ <circle cx="550" cy="328" r="84" fill="none" stroke="#E8C18D" stroke-opacity=".45"/>
+ <circle cx="550" cy="328" r="68" fill="#2A1D25" stroke="#E8C18D" stroke-opacity=".65"/>
+ <path class="star" d="M550 270l12 34 34 12-34 12-12 34-12-34-34-12 34-12z"/>
+ <text x="550" y="386" text-anchor="middle" class="group">SOFTWARE</text>
+ <text x="550" y="405" text-anchor="middle" class="minor">ENGINEERING</text>
+</g>
+<!-- data -->
+<g>
+ <circle class="node" cx="325" cy="350" r="55"/>
+ <text x="325" y="344" text-anchor="middle" class="group">DATABASE</text>
+ <text x="325" y="366" text-anchor="middle" class="tech">MongoDB</text>
+ <path class="star delay3" d="M325 280l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+</g>
+<!-- devops -->
+<g>
+ <circle class="node" cx="780" cy="350" r="55"/>
+ <text x="780" y="344" text-anchor="middle" class="group">DEV TOOLS</text>
+ <text x="780" y="366" text-anchor="middle" class="tech">Linux · Git</text>
+ <path class="star delay4" d="M780 280l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+</g>
+<!-- mobile -->
+<g>
+ <circle class="node" cx="550" cy="520" r="58"/>
+ <text x="550" y="514" text-anchor="middle" class="group">MOBILE</text>
+ <text x="550" y="537" text-anchor="middle" class="tech">Swift</text>
+ <path class="star delay1" d="M550 444l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+</g>
+<!-- outer stars -->
+<g>
+ <path class="star" d="M105 100l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+ <path class="star delay2" d="M995 100l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+ <path class="star delay3" d="M95 430l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+ <path class="star delay1" d="M1005 430l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+ <path class="star delay4" d="M350 90l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+ <path class="star delay2" d="M750 90l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+ <circle cx="140" cy="340" r="2" fill="#F8E7C9"/><circle cx="960" cy="340" r="2" fill="#F8E7C9"/>
+ <circle cx="420" cy="165" r="2" fill="#F8E7C9"/><circle cx="680" cy="165" r="2" fill="#F8E7C9"/>
+ <circle cx="420" cy="475" r="2" fill="#F8E7C9"/><circle cx="680" cy="475" r="2" fill="#F8E7C9"/>
+</g>
+<text x="550" y="610" text-anchor="middle" class="eyebrow">EVERY NEW SKILL ADDS A STAR TO THE MAP  ✧</text>
+</svg>
