@@ -1,4 +1,4 @@
-name: Generate rose-gold contribution snake
+name: Generate Arwa's golden star trail
 
 on:
   schedule:
@@ -12,12 +12,45 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate animated rose-gold contribution snake
+      - name: Generate contribution trail
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg?color_snake=#E8C18D&color_dots=#2B2027,#5A3947,#946276,#C99469,#F2D7AD
+
+      - name: Turn the moving snake into golden starbursts
+        run: |
+          python - <<'PY'
+          import re
+          from pathlib import Path
+
+          file = Path("dist/snake.svg")
+          svg = file.read_text(encoding="utf-8")
+
+          pattern = re.compile(r'<rect class="s s([0-3])"([^>]*)/>')
+
+          def star(match):
+              attrs = match.group(2)
+              values = dict(re.findall(r'(x|y|width|height)="([^"]+)"', attrs))
+              x, y = float(values["x"]), float(values["y"])
+              w, h = float(values["width"]), float(values["height"])
+              cx, cy = x + w / 2, y + h / 2
+              ix, iy = w * 0.23, h * 0.23
+              points = [
+                  (cx, y), (cx + ix, cy - iy), (x + w, cy),
+                  (cx + ix, cy + iy), (cx, y + h),
+                  (cx - ix, cy + iy), (x, cy), (cx - ix, cy - iy)
+              ]
+              d = "M " + " L ".join(f"{px:.2f} {py:.2f}" for px, py in points) + " Z"
+              return f'<path class="s s{match.group(1)}" d="{d}"/>'
+
+          svg, count = pattern.subn(star, svg)
+          if count == 0:
+              raise SystemExit("No animated snake segments found; refusing to publish an unchanged image.")
+          file.write_text(svg, encoding="utf-8")
+          print(f"Converted {count} moving segments into rose-gold starbursts.")
+          PY
 
       - name: Publish animation to output branch
         uses: crazy-max/ghaction-github-pages@v4
