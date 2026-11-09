@@ -34,8 +34,10 @@
   <img src="https://skillicons.dev/icons?i=c,js,java,swift,html,css,react,nodejs,express,mongodb,git,linux,vscode&theme=light" alt="Technologies and development tools"/>
 </p>
 
+<h3 align="center">✦ MY CONTRIBUTION CONSTELLATION ✦</h3>
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Liorwa0/Liorwa0/output/github-contribution-grid-snake-dark.svg" width="100%" alt="GitHub contribution snake animation"/>
+  <img src="https://raw.githubusercontent.com/Liorwa0/Liorwa0/output/snake.svg" width="100%" alt="Animated rose-gold contribution snake"/>
 </p>
 
 <p align="center">
